@@ -1,142 +1,176 @@
-/* --- Grocry Navbar Animations --- */
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.08);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* --- Navbar Base Styles (Grocry Fresh Theme) --- */
-.navbar-dark-pro {
-  background: linear-gradient(90deg, #3bb273, #2d8659);
-  backdrop-filter: blur(10px);
-  padding: 1rem 0.75rem;
-  border-bottom: 2px solid #e9f7ef;
-  animation: fadeInDown 0.8s ease-out forwards;
-  z-index: 1030;
-}
-
-/* Subtle green glow layer */
-.navbar-glow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(63, 195, 128, 0.2);
-  pointer-events: none;
-}
-
-/* --- Brand Logo --- */
-.navbar-brand.brand-link {
-  color: #ffffff;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: text-shadow 0.3s ease, color 0.3s ease;
-}
-.navbar-brand.brand-link:hover {
-  color: #d4f8e8;
-  text-shadow: 0 0 8px #a8e6cf, 0 0 20px #dcedc1;
-}
-
-/* --- Nav Links --- */
-.nav-link-pro {
-  color: #f5f5f5 !important;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s ease, transform 0.3s ease;
-  letter-spacing: 0.5px;
-}
-.nav-link-pro:hover {
-  color: #b7ffb1 !important;
-  transform: translateY(-2px);
-}
-.nav-link-pro::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #c3f9d6;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out;
-}
-.nav-link-pro:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* --- Nav Icons --- */
-.icon-pro {
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-.nav-link-pro:hover .icon-pro {
-  transform: scale(1.2);
-  color: #ffffff;
-  animation: pulse 0.5s ease;
-}
-
-/* --- Buttons (Buy / Login / Cart etc.) --- */
-.nav-btn-pro {
-  background-color: #f1faee;
-  color: #2d6a4f;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
-  border: none;
-}
-.nav-btn-pro:hover {
-  background-color: #95d5b2;
-  color: #1b4332;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Hero CTA Button */
-.hero-btn {
-  background-color: #2d6a4f;
-  color: #ffffff;
-}
-.hero-btn:hover {
-  background-color: #1b4332;
-}
-
-/* --- Dropdown Menu (Grocry Soft Look) --- */
-.dropdown-menu-pro {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #cdeac0;
-  border-radius: 10px;
-  animation: fadeInDown 0.4s ease-out;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-.dropdown-item-pro {
-  color: #2d6a4f !important;
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
-.dropdown-item-pro:hover {
-  background-color: #d8f3dc !important;
-  color: #1b4332 !important;
-  transform: translateX(5px);
-}
+                                        /* --- Grocry Navbar Animations --- */
+                                        
+                                        @keyframes fadeInDown {
+                                            from {
+                                                opacity: 0;
+                                                transform: translateY(-20px);
+                                            }
+                                            to {
+                                                opacity: 1;
+                                                transform: translateY(0);
+                                            }
+                                        }
+                                        
+                                        @keyframes pulse {
+                                            0% {
+                                                transform: scale(1);
+                                            }
+                                            50% {
+                                                transform: scale(1.08);
+                                            }
+                                            100% {
+                                                transform: scale(1);
+                                            }
+                                        }
+                                        /* --- Navbar Base Styles (Grocry Fresh Theme) --- */
+                                        
+                                        .navbar-dark-pro {
+                                            background: linear-gradient(45deg, #F5E9D3, #351804);
+                                            backdrop-filter: blur(10px);
+                                            padding: 1rem 0.75rem;
+                                            border-bottom: 2px solid #F5E9D3;
+                                            animation: fadeInDown 0.8s ease-out forwards;
+                                            z-index: 1030;
+                                        }
+                                        /* .navbar-dark-pro {
+                                        /* position: relative; */
+                                        /* background: #CBAACB  ; */
+                                        /* background: #F3C6C0  ; */
+                                        /* background: #F496F4  ; */
+                                        /* background: #5D2FB2  ; */
+                                        /* background: #F5E9D3;
+                                        backdrop-filter: blur(8px);
+                                        padding: 1rem 0;
+                                        animation: fadeInDown 0.8s ease-out forwards;
+                                        z-index: 1030; */
+                                        
+                                        */
+                                        /* Subtle green glow layer */
+                                        /* .navbar-glow {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: rgba(63, 195, 128, 0.2); */
+                                        /* pointer-events: none; */
+                                        
+                                        .navbar-glow {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background: radial-gradient(circle at var(--x, 0px) 50%, rgb(95, 67, 39) 0%, transparent 40%);
+                                            transition: background 0.2s ease;
+                                            pointer-events: none;
+                                            /* Prevents the glow from interfering with clicks */
+                                        }
+                                        /* --- Brand Logo --- */
+                                        
+                                        .navbar-brand.brand-link {
+                                            color: #3e2312;
+                                            font-family: 'Decorative Serif';
+                                            font-size: 2rem;
+                                            font-weight: 700;
+                                            letter-spacing: 1px;
+                                            text-transform: uppercase;
+                                            transition: text-shadow 0.3s ease, color 0.3s ease;
+                                        }
+                                        
+                                        .navbar-brand.brand-link:hover {
+                                            color: #714d33;
+                                            text-shadow: 0 0 8px #efd9ca, 0 0 20px #d3b5a0;
+                                        }
+                                        /* --- Nav Links --- */
+                                        
+                                        .nav-link-pro {
+                                            color: #f5f5f5 !important;
+                                            font-weight: 500;
+                                            position: relative;
+                                            transition: color 0.3s ease, transform 0.3s ease;
+                                            letter-spacing: 0.5px;
+                                        }
+                                        
+                                        .nav-link-pro:hover {
+                                            color: #2e2723 !important;
+                                            transform: translateY(-2px);
+                                        }
+                                        
+                                        .nav-link-pro::after {
+                                            content: "";
+                                            position: absolute;
+                                            bottom: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 2px;
+                                            background-color: #2e2723;
+                                            transform: scaleX(0);
+                                            transform-origin: bottom right;
+                                            transition: transform 0.3s ease-out;
+                                        }
+                                        
+                                        .nav-link-pro:hover::after {
+                                            transform: scaleX(1);
+                                            transform-origin: bottom left;
+                                        }
+                                        /* --- Nav Icons --- */
+                                        
+                                        .icon-pro {
+                                            transition: transform 0.3s ease, color 0.3s ease;
+                                        }
+                                        
+                                        .nav-link-pro:hover .icon-pro {
+                                            transform: scale(1.2);
+                                            color: #ffffff;
+                                            animation: pulse 0.5s ease;
+                                        }
+                                        /* --- Buttons (Buy / Login / Cart etc.) --- */
+                                        
+                                        .nav-btn-pro {
+                                            background-color: #fddcc4;
+                                            color: #8e430d;
+                                            font-weight: 600;
+                                            border-radius: 8px;
+                                            padding: 0.5rem 1rem;
+                                            transition: all 0.3s ease;
+                                            border: none;
+                                        }
+                                        
+                                        .nav-btn-pro:hover {
+                                            background-color: #fddcc4;
+                                            color: #8e430d;
+                                            transform: translateY(-2px);
+                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                                        }
+                                        /* Hero CTA Button */
+                                        
+                                        .hero-btn {
+                                            background-color: #6f4a30;
+                                            color: #ffffff;
+                                        }
+                                        
+                                        .hero-btn:hover {
+                                            background-color: #452f1f;
+                                        }
+                                        /* --- Dropdown Menu (Grocry Soft Look) --- */
+                                        
+                                        .dropdown-menu-pro {
+                                            background: rgba(255, 255, 255, 0.95);
+                                            border: 1px solid #cdeac0;
+                                            border-radius: 10px;
+                                            animation: fadeInDown 0.4s ease-out;
+                                            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                                        }
+                                        
+                                        .dropdown-item-pro {
+                                            color: #6f4a30 !important;
+                                            font-weight: 500;
+                                            transition: all 0.2s ease;
+                                        }
+                                        
+                                        .dropdown-item-pro:hover {
+                                            background-color: #d8c6b9 !important;
+                                            color: #452f1f !important;
+                                            transform: translateX(5px);
+                                        }

@@ -97,11 +97,11 @@ const HomePage = () => {
         <div className="container py-5 position-relative z-index-1">
           {/* Main heading with Bootstrap classes and custom animation classes. */}
           <h1 className="display-1 fw-bold mb-4 animate__fadeInUp">
-            Bringing Freshness From Our Garden To Your Doorstep.
+            Brew Your Perfect Cup. Discover Premium Coffee.
           </h1>
           {/* A subheading with Bootstrap classes and custom animation classes. */}
           <p className="lead fw-light mt-3 mb-5 animate__fadeInUp animate__delay-1s">
-            Freshness Handpicked. Quality Delivered.
+            Freshly Roasted Coffee Powder_Rich Aroma,Perfect Teste.
           </p>
           {/* A `Link` component that navigates the user to the `/products` page when clicked. */}
           <Link
@@ -122,7 +122,7 @@ const HomePage = () => {
         <div className="text-center mb-5">
           <h2 className="fw-bold mb-2 text-dark">Handpicked for You</h2>
           <p className="lead text-muted">
-            A showcase of our most popular and loved products.
+            A curated selection of our finest and aromatic coffee powders.
           </p>
         </div>
         {/* A responsive grid layout for the product cards. */}
@@ -174,8 +174,8 @@ const HomePage = () => {
       {/* A section to encourage users to explore more products. */}
       <section className="action-section text-white text-center py-5 my-5 shadow-sm">
         <div className="container">
-          <h3 className="fw-bold mb-3">Ready to find more?</h3>
-          <p className="lead mb-4">Our full catalog is waiting for you.</p>
+          <h3 className="fw-bold mb-3">Ready to brew?</h3>
+          <p className="lead mb-4">See all our blends and single-origins.</p>
           <Link
             to="/products"
             className="btn btn-light btn-lg rounded-pill shadow-sm"

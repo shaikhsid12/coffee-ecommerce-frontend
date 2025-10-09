@@ -69,8 +69,9 @@ const RegisterPage = () => {
       {/* this `div` acts as card with padding a shadow and a fixed width */}
       <div className="card p-4 shadow-sm" style={{ width: "25rem" }}>
         {/*  A heading for the form */}
-        <h2 className="text-center mb-4">Register</h2>
-        {/* WE use conditional rendering to shoe an error message if the error state is not null  */}
+        <h2 className="text-center mb-4" style={{color: '#351804'}}>Register</h2>
+        {/* WE use conditiona
+        l rendering to shoe an error message if the error state is not null  */}
         {/* if `error` is a truthy value, The `div` with the alert will be rendered */}
         {error && <div className="alert alert-danger">{error}</div>}
         {/* The form element with an `onSubmit` event handler that calls handel submit function*/}
@@ -117,7 +118,7 @@ const RegisterPage = () => {
           {/*  the submit button */}
           <button
             type="submit"
-            className="btn btn-primary w-100"
+            className="btn btn-primary w-100" 
             //the `disabled` attribute is set `true` if `loading` true
             // preventing multiple submission while a request is in progress
             // disabled

@@ -46,7 +46,7 @@ const LoginPage = () => {
       {/* Login Card - A minimalist, interactive panel */}
       <div className="login-panel p-5 rounded-4 shadow-lg animate__fadeInUp">
         <div className="text-center mb-5">
-          <h2 className="fw-bold mb-1 text-primary">Login</h2>
+          <h2 className="fw-bold mb-1" style={{color: '#351804'}}>Login</h2>
           <p className="text-muted">Welcome back to your account</p>
         </div>
         {/* Error message display */}

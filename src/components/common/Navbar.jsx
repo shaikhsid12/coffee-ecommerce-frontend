@@ -102,7 +102,7 @@ const Navbar = () => {
       <div className="container-fluid">
         {/* Brand/Logo → navigates to home page ("/Home"). */}
         <Link className="navbar-brand fw-bold brand-link text-font" to="/Home">
-          E-Commerce
+          Aroma Beans
         </Link>
         {/* Button for mobile toggle (hamburger menu).
             Appears only on smaller screens. */}

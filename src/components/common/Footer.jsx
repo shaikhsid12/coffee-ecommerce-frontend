@@ -8,8 +8,8 @@ import "../../styles/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Fresh Grocery Store</p>
-      <p>Freshness delivered to your doorstep •</p>
+      <p>&copy; {new Date().getFullYear()} Aroma Beans</p>
+      <p>Quality Beans Perfect Grinds Delivered •</p>
     </footer>
   );
 };
