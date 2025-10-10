@@ -84,7 +84,7 @@ const ProductsPage = () => {
         // Simple logic for featured products: products with a price over $1000 & stock is not 0
         // Filter the response: keeps products where the price is greater than $1000 AND stock is not 0.
         setFeaturedProducts(
-          response.filter((p) => p.price >= 350 && p.stock != 0)
+          response.filter((p) => p.price >= 500 && p.stock != 0)
         );
       } catch (err) {
         // If an error occurs during fetching, set the error state with a friendly message.
@@ -230,7 +230,7 @@ const ProductsPage = () => {
         {/* // Bootstrap container. */}
         <div className="container">
           {/* // Title for the main product grid. */}
-          <h2 className="section-title text-center mb-4">All Products</h2>
+          <h2 className="section-title text-center mb-4">All Coffee & Blends</h2>
           {/* Conditional rendering: check if any filtered products exist. */}
           {filteredProducts.length > 0 ? (
             // If products exist, render the ProductGrid.

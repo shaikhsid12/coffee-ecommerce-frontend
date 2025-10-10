@@ -98,7 +98,7 @@ const ProductListPage = () => {
           <h4 className="alert-heading">No Products Found!</h4>
           <p className="mb-0">
             You haven't added any products yet. Click the button above to get
-            started. :rocket:
+            started. 🚀
           </p>
         </div>
       ) : (

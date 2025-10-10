@@ -67,7 +67,7 @@ const ProductCard = ({
       // Set badge content to "Limited Stock" with danger (red) styling.
       badgeContent = { text: "Limited Stock", type: "danger" };
       // Sub-condition 2: If the price is high (over 2000).
-    } else if (product.price > 400) {
+    } else if (product.price > 500) {
       // Set badge content to "Top Seller" with warning (yellow) styling.
       badgeContent = { text: "Top Seller", type: "warning" };
       // Sub-condition 3: Default badge for all other featured, in-stock items.
