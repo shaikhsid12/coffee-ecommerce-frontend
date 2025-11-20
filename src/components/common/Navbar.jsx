@@ -126,20 +126,12 @@ const Navbar = () => {
           {/* Unordered list of navigation items.
               ms-auto → pushes items to right side of navbar. */}
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+          
             {/* Always visible Products link */}
             <li className="nav-item">
               <Link className="nav-link nav-link-pro text-font" to="/products">
                 Products
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link nav-link-pro text-font" to="/about">
-                Aboutus
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link nav-link-pro text-font" to="/contact">
-                Contactus
               </Link>
             </li>
             {/* Conditional Rendering:
@@ -178,6 +170,20 @@ const Navbar = () => {
                     <FaHistory className="me-2 icon-pro" /> Orders
                   </Link>
                 </li>
+
+                {/* Aboutus link */}
+                  <li className="nav-item">
+              <Link className="nav-link nav-link-pro text-font" to="/about">
+                AboutUs
+              </Link>
+            </li>
+
+            {/* Contactus link */}
+            <li className="nav-item">
+              <Link className="nav-link nav-link-pro text-font" to="/contact">
+                ContactUs
+              </Link>
+            </li>
                 
                 {/* User dropdown menu */}
                 <li className="nav-item dropdown">
