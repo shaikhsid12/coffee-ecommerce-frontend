@@ -47,13 +47,13 @@ const ProductHero = ({ searchTerm, setSearchTerm }) => {
           {/* display-3: Large, prominent Bootstrap heading size. */}
           {/* fw-bold: Font weight bold. */}
           {/* animate__animated animate__fadeInDown: Classes from the external 'animate.css' library for animation effects. */}
-          Explore Premium Coffee Powders
+          Explore Premium Protein & Supplements
         </h1>
         {/* Tagline / Subtitle */}
         <p className="lead animate__animated animate__fadeInUp animate__delay-1s">
           {/* lead: Bootstrap class to make the text stand out slightly. */}
           {/* animate__delay-1s: Delays the animation start by 1 second. */}
-          Your perfect cup, just a click away
+          Your perfect body fuel, just a click away
         </p>
         {/* Search Bar Wrapper */}
         <div className="search-bar mt-4 animate__animated animate__fadeIn animate__delay-2s">
@@ -68,7 +68,7 @@ const ProductHero = ({ searchTerm, setSearchTerm }) => {
             <input
               type="text"
               className="form-control" // Bootstrap class for form input styling.
-              placeholder="Search for coffee beans, roasts..."
+              placeholder="Search for your body fuel..."
               // Controlled input: Its value is tied directly to the parent's state.
               value={searchTerm}
               // Calls the local handler which updates the parent's state on every key stroke.

@@ -8,8 +8,8 @@ import "../../styles/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Aroma Beans</p>
-      <p>Quality Beans Perfect Grinds Delivered •</p>
+      <p>&copy; {new Date().getFullYear()} Protein Point</p>
+      <p>Fueling Your Fitness Journey, One Scoop At A Time •</p>
     </footer>
   );
 };

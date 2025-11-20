@@ -33,7 +33,7 @@
 /* --- Image Section (Left) --- */
 
 .product-image-section {
-    border: #c4a484 3px solid;
+    border: gray 3px solid;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
 }
 
 .product-hero-image-pro {
-    border: #a84b08 2px solid;
+    border: #000 2px solid;
     border-radius: 10px;
     padding: 5px;
     max-width: 100%;
@@ -93,7 +93,7 @@
 .product-title-pro {
     font-size: 3rem;
     font-weight: 800;
-    color: #411e06;
+    color: #000;
 }
 
 .product-description-pro {
@@ -105,7 +105,7 @@
 .product-price-pro {
     font-size: 3rem;
     font-weight: 800;
-    color: #5e2d0c;
+    color: #000;
 }
 
 .product-stock-status-pro {
@@ -166,7 +166,7 @@
     top: 2rem;
     left: 2rem;
     z-index: 20;
-    background: rgb(80, 45, 10);
+    background: gray;
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 0.75rem 1.5rem;
@@ -187,15 +187,15 @@
     padding: 1rem 2rem;
     font-weight: bold;
     border-radius: 50px;
-    background: #974c1a;
-    border-color: #c4a484;
+    background: rgb(66, 66, 252);
+    border-color: rgb(62, 62, 249);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .add-to-cart-btn-pro:hover {
     transform: translateY(-5px);
-    background: #a2521d;
-    box-shadow: 0 10px 20px rgba(196, 164, 132);
+    background: rgb(98, 98, 255);
+    box-shadow: 0 10px 20px gray;
 }
 
 .add-to-cart-btn-pro:disabled {

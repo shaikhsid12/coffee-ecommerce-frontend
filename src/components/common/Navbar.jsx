@@ -102,7 +102,7 @@ const Navbar = () => {
       <div className="container-fluid">
         {/* Brand/Logo → navigates to home page ("/Home"). */}
         <Link className="navbar-brand fw-bold brand-link text-font" to="/Home">
-          Aroma Beans
+          Protein point
         </Link>
         {/* Button for mobile toggle (hamburger menu).
             Appears only on smaller screens. */}
@@ -168,6 +168,7 @@ const Navbar = () => {
                     <FaHistory className="me-2 icon-pro" /> Orders
                   </Link>
                 </li>
+                
                 {/* User dropdown menu */}
                 <li className="nav-item dropdown">
                   {/* Dropdown toggle link (click to expand). */}

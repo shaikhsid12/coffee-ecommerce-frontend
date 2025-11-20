@@ -185,7 +185,7 @@ const OrderPage = () => {
           style={{ animation: "spin 2s linear infinite" }}
         />
         {/* Loading text message. */}
-        <p className="lead text-muted">Brewing up your past orders...</p>
+        <p className="lead text-muted">Just a moment, loading your protein fuel-up history..."</p>
       </div>
     );
   }

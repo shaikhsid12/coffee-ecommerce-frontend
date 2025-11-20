@@ -244,7 +244,7 @@ const CartPage = () => {
                         {/* Product name heading. */}
                         <h5 className="card-title mb-1">{item.product.name}</h5>
                         {/* Individual product price, muted text. */}
-                        <p className="text-muted mb-2">${item.product.price}</p>
+                        <p className="text-muted mb-2">₹{item.product.price}</p>
                         {/* // Flex container for quantity controls. */}
                         <div className="d-flex align-items-center">
                           {/* Decrease Quantity button. */}
@@ -316,7 +316,7 @@ const CartPage = () => {
                       {/* Subtotal label. */}
                       <span>Subtotal:</span>
                       {/* Subtotal value, bolded, fixed to 2 decimals. */}
-                      <strong>${totalAmount.toFixed(2)}</strong>
+                      <strong>₹{totalAmount.toFixed(2)}</strong>
                     </li>
                     {/* List item for Shipping. */}
                     <li className="list-group-item d-flex justify-content-between">
