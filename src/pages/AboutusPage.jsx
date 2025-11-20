@@ -4,46 +4,45 @@ import "../styles/AboutUsPage.css";
 
 const AboutUsPage = () => {
   const galleryImages = [
-    "/images/haldi1.jpg",
-    "/images/birthday2.jpg",
-    "/images/babyshower1.jpg",
-    "/images/anniversary2.jpg",
-    "/images/schoolevent1.jpg",
-    "/images/wedding-stage2.jpg",
-    "/images/collegeevent2.jpg",
-    "/images/birthday2.jpg",
-    "/images/haldi3.jpg",
-    "/images/babyshower3.jpg",
+    "frontend/public/BCAA's_.png",
+    "frontend/public/BCAA's_01.png",
+    "frontend/public/BCAA's_02.png",
+    "frontend/public/BCAA's_DC_EAA.png",
+    "frontend/public/creatine_01.png",
+    "frontend/public/wheyP_DE.png",
+    "frontend/public/wheyP_BNN.png",
+    "frontend/public/wheyP_BNPC.png",
+
   ];
 
   return (
     <section className="about-section">
       <div className="about-container">
-        <h1 className="about-heading animate-fadeInDown">About Shri Sai Events</h1>
+        <h1 className="about-heading animate-fadeInDown">About Protein Point</h1>
 
         <div className="about-flex">
           <img
-            src="/images/event-decor-5.jpg"
-            alt="Shri Sai Events Decoration"
+            src="frontend/public/ProteinPoint.jpeg"
+            alt="Protein Point"
             className="about-main-img animate-fadeInLeft"
           />
           <div className="about-text animate-fadeInRight">
-            <p>
-              Welcome to <strong>Shri Sai Events</strong>, your trusted partner
-              for creating unforgettable celebrations. Whether it’s a wedding,
-              birthday, anniversary, or corporate event, we bring your dream
-              décor to life with creativity, precision, and passion.
+             <p>
+             Welcome to <strong> Protein Point </strong>, your dedicated source for premium health, fitness, and nutrition supplements. 
+             Whether you're a seasoned athlete, a fitness enthusiast, 
+             or just starting your wellness journey, 
+             we are committed to providing you with high-quality products to fuel your goals.
+             Every product we select—from the ingredients to the sourcing—is chosen with care to ensure it meets our high standards for quality and efficacy. We are here to help you turn your health and fitness aspirations into lifelong achievements.
             </p>
             <p>
-              Founded with a love for artful decoration and a commitment to
-              quality, Shri Sai Events has become known for elegant stage
-              setups, floral themes, lighting, and complete event design
-              solutions.
+             Founded with a passion for health, transparency, and results, 
+             Protein Point has become a trusted name for carefully curated protein powders, vitamins, pre-workouts, 
+             and essential health aids. We believe in providing products that are effective, safe, and backed by science.
             </p>
             <p>
-              Every detail — from drapes to lighting — is crafted with care to
-              match your theme, style, and budget. We believe in turning moments
-              into lifelong memories.
+              Every product we select—from the ingredients to the 
+              sourcing—is chosen with care to ensure it meets our high standards for quality and efficacy.
+               We are here to help you turn your health and fitness aspirations into lifelong achievements.
             </p>
           </div>
         </div>
@@ -52,22 +51,27 @@ const AboutUsPage = () => {
           <div className="info-card animate-fadeInUp">
             <h2>Our Mission</h2>
             <p>
-              To deliver personalized, elegant, and memorable event decoration
-              services that exceed client expectations — every single time.
+              ​To deliver a trusted, high-quality, and
+               personalized selection of sports nutrition 
+               and wellness supplements that helps 
+               every customer meet and exceed their
+               health and fitness goals.
             </p>
           </div>
 
           <div className="info-card animate-fadeInUp delay-1">
             <h2>Our Vision</h2>
             <p>
-              To become one of the most trusted and creative event decoration
-              brands, known for turning ideas into stunning realities with a
-              touch of divine elegance.
+              To become the most reliable and 
+              customer-focused supplement brand, 
+              known for turning wellness aspirations 
+              into tangible results through exceptional 
+              products and expert support.
             </p>
           </div>
         </div>
 
-        {/* Horizontal Scrolling Gallery */}
+        Horizontal Scrolling Gallery
         <div className="scrolling-gallery">
           <div className="scrolling-track">
             {galleryImages.concat(galleryImages).map((img, idx) => (

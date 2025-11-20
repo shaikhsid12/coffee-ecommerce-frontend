@@ -34,7 +34,7 @@
 
 .contact-hero {
     position: relative;
-    background: url("/images/contact.jpg") center/cover no-repeat;
+    background: url(../../public/Protein_P_bg.jpeg) center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 6rem 1rem;
@@ -90,7 +90,7 @@
 }
 
 .contact-left h4 {
-    color: #0c656b;
+    color: #02fc02;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
