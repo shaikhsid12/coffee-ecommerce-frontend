@@ -21,11 +21,11 @@ const AboutUsPage = () => {
         <h1 className="about-heading animate-fadeInDown">About Protein Point</h1>
 
         <div className="about-flex">
-          <img
-            src="frontend/public/ProteinPoint.jpeg"
+          {/* <img
+            src="frontend/public/Protein_P_bg.jpeg"
             alt="Protein Point"
             className="about-main-img animate-fadeInLeft"
-          />
+          /> */}
           <div className="about-text animate-fadeInRight">
              <p>
              Welcome to <strong> Protein Point </strong>, your dedicated source for premium health, fitness, and nutrition supplements. 
@@ -71,19 +71,19 @@ const AboutUsPage = () => {
           </div>
         </div>
 
-        Horizontal Scrolling Gallery
+        {/* Horizontal Scrolling Gallery
         <div className="scrolling-gallery">
           <div className="scrolling-track">
             {galleryImages.concat(galleryImages).map((img, idx) => (
               <img
                 key={idx}
                 src={img}
-                alt={`Event Decor ${idx + 1}`}
+                alt={`Protein Imgs ${idx + 1}`}
                 className="scrolling-img"
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

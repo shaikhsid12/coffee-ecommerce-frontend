@@ -15,6 +15,7 @@
 }
 
 .about-flex {
+    /* background-image: url(../../public/Protein_P_bg.jpeg); */
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
