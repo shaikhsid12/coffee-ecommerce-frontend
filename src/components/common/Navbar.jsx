@@ -132,6 +132,16 @@ const Navbar = () => {
                 Products
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-pro text-font" to="/about">
+                Aboutus
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-pro text-font" to="/contact">
+                Contactus
+              </Link>
+            </li>
             {/* Conditional Rendering:
                 If user is logged in (currentUser exists), show logged-in menu.
                 Else, show login/register buttons. */}

@@ -15,6 +15,8 @@ import ProductDetails from "./components/products/ProductDetails";
 import CartPage from "./pages/CartPage";
 import OrderPage from "./pages/OrderPage";
 import ProfilePage from "./pages/ProfilePage";
+import AboutUsPage from "./pages/AboutusPage";
+import ContactUsPage from "./pages/ContactusPage";
 
 const App = () => {
   return (
@@ -27,7 +29,8 @@ const App = () => {
           <main className="flex-grow-1">
             {/* public */}
             <Routes>
-
+              <Route path="/contact" element={<ContactUsPage />} />
+              <Route path="/about" element={<AboutUsPage />} />
               <Route path="/register" element={<RegisterPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/home" element={<HomePage />} />
